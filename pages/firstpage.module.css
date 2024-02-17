@@ -1,0 +1,10 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+}

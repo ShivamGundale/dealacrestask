@@ -1,0 +1,11 @@
+.butt{
+    width: 380px;
+    height: 30px;
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}

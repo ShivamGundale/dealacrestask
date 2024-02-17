@@ -1,0 +1,20 @@
+.textimgcompo{
+    width: 400px;
+    height: 80vh;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 15px;
+}
+.textfoot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,103 @@
+.steps{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.stepdiv{
+    height: auto;
+   display: flex;
+   flex-direction: row; 
+   padding: 2rem;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.bgdiv{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../public/bgdivimg.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bgtext{
+    width: 80vw;
+    height: auto;
+    align-self: baseline;
+    background: white;
+    color: black;
+    align-self: last baseline;
+    border: 3px solid aqua;
+    border-radius: 7px;
+    
+    
+}
+.bgtext h1{
+    text-align: center;
+}
+.subbutton{
+    width: 18em;
+    height: 2em;
+    background: blue;
+    color: white;
+    font-size: 120%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 5px;
+}
+.mainfoottext{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foottext{
+    width: 80vw;
+    align-self: center;
+}
+
+.foottext li{
+    list-style-type: none;
+    
+}
+.foottext li::before{ 
+  
+    
+    content: "\00BB"; 
+} 
+
+.cardcontent{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background: blue;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
